@@ -1,0 +1,295 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{comment}
+\usepackage{marvosym}
+\usepackage{setspace}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{fontawesome5}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\newcommand{\faCenter}[1]{\raisebox{-2pt}{\faIcon{#1}}}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setlength\parindent{24pt}
+\setstretch{1.15}
+\begin{document}
+
+\begin{center}
+\textbf{\Huge \scshape Javad Sheikh} \\ \vspace{1pt}
+\end{center}
+\hrule
+\begin{center}
+\begin{tabularx}{1\textwidth} {>{\raggedleft\arraybackslash}X >{\centering\arraybackslash}X >{\raggedright\arraybackslash}X}
+    \faCenter{globe} \href{https://javad-sheikh.github.io}{Personal Website} &
+    \faCenter{envelope} \href{mailto:javad2n@aut.ac.ir}{javad2n@aut.ac.ir}  &
+    \faCenter{linkedin}  \href{https://linkedin.com/in/javad-sheikh}{linkedin.com/in/javad-sheikh} \\
+    \faCenter{phone-alt} \href{tel:+989197317364}{+98-919-7317-364} &
+    \faCenter{orcid} \href{https://orcid.org/0000-0001-6474-1674}{0000-0001-6474-1674} &
+    \faCenter{github} \href{https://github.com/javad-sheikh}{github.com/javad-sheikh}  \\
+
+\end{tabularx}
+\end{center}
+
+\begin{comment}
+\begin{center}
+    \textbf{\Huge \scshape Javad Sheikh} \\ \vspace{1pt}
+    dokhaniat 4, first sayyad, sayyad Blvd.,  Gorgan, Iran 4917973354\\
+    \href{https://www.researchgate.net/profile/Javad-Sheikh-2}{researchgate.net/profile/Javad-Sheikh} $|$
+    \href{https://github.com/javad-sheikh}{github.com/javad-sheikh}  $|$
+    \href{https://linkedin.com/in/javad-sheikh}{linkedin.com/in/javad-sheikh}\\
+    \small \href{tel:+989197317364}{+98-919-7317-364} $|$ \href{mailto:javad2n@yahoo.com}{javad2n@yahoo.com}
+\end{center}
+\end{comment}
+%\section{Profile}
+
+%\indent I'm a highly motivated artificial intelligence graduate who enjoys solving problems meticulously. I'm looking to improve my knowledge about Machine Learning, Deep Learning, their applications and deploy them into real-world models.
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+        {Amirkabir University of Technology}{Tehran, Iran}
+        {M.Sc. in Computer Engineering, Minor in Artificial Intelligence and robotics}{Sep. 2018 -- Now}
+      \resumeItemListStart
+        %\resumeItem{\textbf{Thesis:} ``Anomaly detection on time series using deep neural networks.''}
+        %\resumeItem{\textbf{Advisor:} Prof. Safabakhsh}
+        \resumeItem{\textbf{GPA:} 15.77/20}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Amirkabir University of Technology}{Tehran, Iran}
+      {B.Sc. in Biomedical Engineering, Minor in Bioelectrics}{Sep. 2013 -- Sep. 2018}
+      \resumeItemListStart
+        %\resumeItem{\textbf{Thesis:} ``Design and Implementation of mobile room lighting control equipment for patients with paraplegic patients.''}
+        %\resumeItem{\textbf{Advisor:} Dr. Ahmadi Pajouh}
+        \resumeItem{\textbf{GPA:} 14.78/20}
+        \resumeItemListEnd
+    \resumeSubheading
+      {Shahid Beheshti Highschool}{Gorgan, Iran}
+      {Diploma in Mathematics and Physics Discipline}{Sep. 2009 -- Sep. 2013}
+      \resumeItemListStart
+        \resumeItem{Under the supervision of NODET (National Organization for Developing Exceptional Talents)}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\section{Publications}
+    \resumeItemListStart
+        \resumeItem{
+        \textbf{Book chapter:}\\
+        Shariatzadeh F.J., Salar Amoli M., Faghihi F., \textbf{Sheikh J.},Sadeghi P., et al.; 2021; \textit{Sutures and surgical instruments};  Medical Equipment;}
+
+        \resumeItem{
+        Sheikh V., RezaeiMoghaddam H., Jafary R., Gholami Z., \textbf{Sheikh J.}; 2020; \textit{Design, construction and performance evaluation of an automatic weighing lysimeter.}; Water and Irrigation Management; 10(1); pp.61-73.\\
+        \textbf{DOI: }\href{https://dx.doi.org/10.22059/jwim.2020.294404.738}{dx.doi.org/10.22059/jwim.2020.294404.738}}
+
+        \resumeItem{
+        Nazarimehr F., \textbf{Sheikh J.}, Ahmadi M.M., Pham V.T., Jafari S.; 2018; \textit{Fuzzy predictive controller for chaotic flows based on continuous signals.}; Chaos, Solitons \& Fractals; 106; pp.349-354.\\
+        \textbf{DOI: }\href{https://doi.org/10.1016/j.chaos.2017.12.005}{doi.org/10.1016/j.chaos.2017.12.005}}
+
+    \resumeItemListEnd
+\section{Working Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {freelance AI engineer}{Apr. 2019 -- Present}
+      {Retinopathy detection App Development}{}
+      \resumeItemListStart
+        \resumeItem{Preprocessed retina images from Kaggle Diabetic Retinopathy data set}
+        \resumeItem{retrained DenseNet-169 on a processed data set}
+        \resumeItem{Developed AI mobile application to detect diabetic retinopathy}
+      \resumeItemListEnd
+    \resumeSubSubheading
+     {Time series forecasting}{}
+     \resumeItemListStart
+        \resumeItem{Deployed different forecasting methods like Arima, Sarima, and recurrent neural networks  }
+     \resumeItemListEnd
+    \resumeSubheading
+      {Artificial Intelligence App Developer}{Sep. 2018 -- Mar. 2019}
+      {AI engineer at Sibbank}{Tehran}
+      \resumeItemListStart
+        \resumeItem{Researched and assessed different mobile compatible deep learning structures}
+        \resumeItem{Used transfer learning to retrain Mobilenet-192}
+        \resumeItem{Developed AI mobile application to read credit card number and expiration from images taken with mobile camera}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Tracking moving object in video} $|$ \emph{Python, OpenCV}}{}
+          \resumeItemListStart
+            \resumeItem{Extracting key points using Brief, Freak, Surf, and Sift}
+            \resumeItem{Following key points utilizing RANSAC and Least Median}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Generative adversarial network} $|$ \emph{Python, Tensorflow, Google Colab, Gradient Tape}}{}
+          \resumeItemListStart
+            \resumeItem{Generation cat and dog pictures with GAN network using the cats and dogs data set}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Semantic Segmentation} $|$ \emph{Python, Tensorflow, Google Colab, CNN}}{}
+          \resumeItemListStart
+            \resumeItem{Semantic segmentation of KITTI data set using convolutional neural networks}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Machine Translation} $|$ \emph{Python, Tensorflow, LSTM, GRU, Attention}}{}
+          \resumeItemListStart
+            \resumeItem{Designed an Encoder-Decoder Recurrent Neural Network model with attention for Deutsch to English translation}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{fuzzy neural network} $|$ \emph{Python}}{}
+          \resumeItemListStart
+            \resumeItem{Estimation of Mackey-Glass time series with a fuzzy neural network}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Machine learning Projects} $|$ \emph{Python, scikit-learn}}{}
+          \resumeItemListStart
+            \resumeItem{Clustering tasks using  Kmeans, DB-Scan and Hierarchical clustering }
+            \resumeItem{Classification with KNN with k found using K—fold-cross-validation}
+            \resumeItem{Classification with  C4.5, CART, ID3 Decision Trees}
+            \resumeItem{Classification with Random Forest}
+            \resumeItem{Classification of car evaluation data set with Naive Bayes and Logistic Regression}
+            \resumeItem{Classification of handwritten digits data set with SVM}
+          \resumeItemListEnd
+      \resumeProjectHeading
+        {\textbf{Parameter Estimation} $|$ \emph{Matlab, Optimization}}{}
+        \resumeItemListStart
+            \resumeItem{Parameter Estimation of the Rulkov Neuron Map using Interior search algorith)}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\section{Teaching Experience}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+          {\textbf{Software Tutor} $|$ \emph{Python, Tensorflow, Google Colab}}{Spring 2019}
+          \resumeItemListStart
+            \resumeItem{Department of Computer Engineering, Amirkabir University of Technology}
+          \resumeItemListEnd
+        \resumeProjectHeading
+          {\textbf{Software Tutor} $|$ \emph{MATLAB, Simulink}}{Spring 2015}
+          \resumeItemListStart
+            \resumeItem{Department of Biomedical Engineering, Amirkabir University of Technology}
+          \resumeItemListEnd
+      \resumeItemListEnd
+      
+\section{Languages}
+  \resumeSubHeadingListStart
+    \resumeSubSubheading
+        {\textbf{English} (CEFR level: C1)}{Listening: 8.5, Reading: 8.5, Writing: 6.5, Speaking: 7}
+
+    \resumeSubSubheading
+        {\textbf{Persian} (Native)}{}
+
+  \resumeSubHeadingListEnd
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, Matlab, \TeX, C/C++, SQL, JavaScript, HTML/CSS} \\
+     \textbf{Developer Tools}{: Git, VS Code, Visual Studio, Android Studio, Jupyter Notebook, Google Colab} \\
+     \textbf{Libraries}{: Tensorflow, Tensorboard, Tensorflow-Lite, Stable-Baselines, OpenCV, Keras, pandas, NumPy, Matplotlib, scikit-learn}
+    }}
+ \end{itemize}
+
+\section{references}
+    \resumeSubHeadingListStart
+
+        \resumeSubSubheading
+            {\textbf{Prof. Safabakhsh,} Department of Computer Engineering, Amirkabir University of Technology}{}
+
+            {\textbf{Email: }}{\href{mailto:safa@aut.ac.ir}{safa@aut.ac.ir}}
+
+        \resumeSubSubheading
+            {\textbf{Asst. Prof. Nazerfard,} Department of Computer Engineering, Amirkabir University of Technology}{}
+
+            {\textbf{Email: }}{\href{mailto:nazerfard@aut.ac.ir}{nazerfard@aut.ac.ir}}
+
+        \resumeSubSubheading
+            {\textbf{Assoc. Prof. Jafari,} Department of Biomedical Engineering, Amirkabir University of Technology}{}
+
+            {\textbf{Email: }}{\href{mailto:sajadjafari@aut.ac.ir}{sajadjafari@aut.ac.ir}}
+    \resumeSubHeadingListEnd
+\begin{comment}
+\section{Interests}
+    \resumeItemListStart
+            \resumeItem{Hiking}
+            \resumeItem{Volleyball}
+            \resumeItem{reading novels}
+          \resumeItemListEnd
+\end{comment}
+\end{document} 
