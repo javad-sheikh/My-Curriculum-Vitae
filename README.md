@@ -35,13 +35,10 @@
 > weighing lysimeter.*; Water and Irrigation Management; 10(1);
 > pp.61-73.
 >
-> **DOI:**
->
 > *•* Nazarimehr F., **Sheikh J.**, Ahmadi M.M., Pham V.T., Jafari S.;
 > 2018; *Fuzzy predictive controller for chaotic flows* *based on
 > continuous signals.*; Chaos, Solitons & Fractals; 106; pp.349-354.
 >
-> **DOI:**
 
 **Selected Academic Projects**
 
@@ -105,11 +102,8 @@
 > *•* Deployed different forecasting methods like Arima, Sarima, and
 > recurrent neural networks
 
-+--------------------------------------------+------------------------+
-| > **Artifcial Intelligence App Developer** | Sep. 2018 -- Mar. 2019 |
-+============================================+========================+
-| > *AI engineer at Sibbank*                 | *Tehran*               |
-+--------------------------------------------+------------------------+
+> **Artifcial Intelligence App Developer** | Sep. 2018 -- Mar. 2019
+> *AI engineer at Sibbank*                 | *Tehran*
 
 > *•* Researched and assessed different mobile compatible deep learning
 > structures
