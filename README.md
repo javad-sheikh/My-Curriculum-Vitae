@@ -86,30 +86,27 @@
 **Working Experience**
 
 > **freelance AI engineer** Apr. 2019 -- Present
-> > *Retinopathy detectionApp Development*
+> *Retinopathy detectionApp Development*
 >
-> *•* Preprocessed retina images from Kaggle Diabetic Retinopathy dataset
->
-> *•* retrained DenseNet-169 on a data set previously preprocessed
->
-> *•* Developed AI mobile application to detect diabetic retinopathy
->
-> > *Time series forecasting*
->
-> *•* Deployed different forecasting methods like Arima, Sarima, and
-> recurrent neural networks
+> >*•* Preprocessed retina images from Kaggle Diabetic Retinopathy dataset
+> >
+> >*•* retrained DenseNet-169 on a data set previously preprocessed
+> >
+> >*•* Developed AI mobile application to detect diabetic retinopathy
+> >
+> *Time series forecasting*
+> >
+> >*•* Deployed different forecasting methods like Arima, Sarima, and recurrent neural networks
 
 > **Artifcial Intelligence App Developer** | Sep. 2018 -- Mar. 2019
 > 
 > *AI engineer at Sibbank*                 | *Tehran*
 > 
-> *•* Researched and assessed different mobile compatible deep learning
-> structures
->
-> *•* Used transfer learning to retrain Mobilenet-192
->
-> *•* Developed AI mobile application to read credit card number and
-> expiration from images taken with mobile camera
+> >*•* Researched and assessed different mobile compatible deep learning structures
+> >
+> >*•* Used transfer learning to retrain Mobilenet-192
+> >
+> >*•* Developed AI mobile application to read credit card number and expiration from images taken with mobile camera
 
 **Teaching Experience**
 
