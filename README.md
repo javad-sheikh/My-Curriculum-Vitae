@@ -1,52 +1,44 @@
 **JavadSheikh**
-
-| Personal Website | javad2n\@aut.ac.ir  | linkedin.com/in/javad-sheikh |
+| :---         |     :---:      |          ---: |
+| https://javad-sheikh.github.io | javad2n\@aut.ac.ir  | linkedin.com/in/javad-sheikh |
 | +98-919-7317-364 | 0000-0001-6474-1674 | github.com/javad-sheikh      |
 
 **Education**
 
-+------------------------------------------------+--------------------+
 | > **Amirkabir University of Technology**       | Tehran, Iran       |
-+================================================+====================+
 | > *M.Sc. in Computer Engineering, Minor in     | *Sep. 2018 -- Now* |
 | > Artifcial Intelligence and robotics*         |                    |
-+------------------------------------------------+--------------------+
 
 > *•* **Thesis:** "Anomaly detection on time series using deep neural
 > networks."
 >
 > *•* **Advisor:** Prof. Safabakhsh
 
-+------------------------------------------+--------------------------+
 | > **Amirkabir University of Technology** | Tehran, Iran             |
-+==========================================+==========================+
 | > *B.Sc. in Biomedical Engineering,      | *Sep. 2013 -- Sep. 2018* |
 | > Minor in Bioelectrics*                 |                          |
-+------------------------------------------+--------------------------+
 
 > *•* **Thesis:** "Design and Implementation of mobile room lighting
 > control equipment for patients with paraplegic patients."
 >
 > *•* **Advisor:** Dr. Ahmadi Pajouh
 
-+------------------------------------------+--------------------------+
+
 | > **Shahid Beheshti Highschool**         | Gorgan, Iran             |
-+==========================================+==========================+
 | > *Diploma in Mathematics and Physics    | *Sep. 2009 -- Sep. 2013* |
 | > Discipline*                            |                          |
-+------------------------------------------+--------------------------+
 
 > *•* Under the supervision of NODET (National Organization for
 > Developing Exceptional Talents)
 
 **Publications**
 
->  **Book chapter:**\
+> *•* **Book chapter:**\
 > Shariatzadeh F.J., Salar Amoli M., Faghihi F., **Sheikh J.**,Sadeghi
 > P., et al.; 2021; *Sutures and surgical instruments*; Medical
 > Equipment;
 >
->  **Journal papers:**\
+> *•* **Journal papers:**\
 > Sheikh V., RezaeiMoghaddam H., Jafary R., Gholami Z., **Sheikh J.**;
 > 2020; *Design, construction and performance evaluation of an automatic
 > weighing lysimeter.*; Water and Irrigation Management; 10(1);
@@ -54,7 +46,7 @@
 >
 > **DOI:**
 >
->  Nazarimehr F., **Sheikh J.**, Ahmadi M.M., Pham V.T., Jafari S.;
+> *•* Nazarimehr F., **Sheikh J.**, Ahmadi M.M., Pham V.T., Jafari S.;
 > 2018; *Fuzzy predictive controller for chaotic flows* *based on
 > continuous signals.*; Chaos, Solitons & Fractals; 106; pp.349-354.
 >
@@ -197,14 +189,14 @@
 
 **Research Interests**
 
->  Machine Learning
+> *•* Machine Learning
 >
->  Artificial Neural Networks
+> *•* Artificial Neural Networks
 >
->  Biologically Plausible Neural Networks
+> *•* Biologically Plausible Neural Networks
 >
->  Anomaly Detection
+> *•* Anomaly Detection
 >
->  Computer Vision
+> *•* Computer Vision
 >
->  Medical Image Analysis
+> *•* Medical Image Analysis
