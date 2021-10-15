@@ -2,7 +2,7 @@
 
 [Personal Website](https://javad-sheikh.github.io) | javad2n\@aut.ac.ir  | [LinkedIn](linkedin.com/in/javad-sheikh)
 ---        |     ---      |          ---
-[+98-919-7317-364](tel:555-202-5422) | [OrcId:0000-0001-6474-1674](https://orcid.org/0000-0001-6474-1674) | [GitHub](github.com/javad-sheikh)
++98-919-7317-364 | [OrcId:0000-0001-6474-1674](https://orcid.org/0000-0001-6474-1674) | [GitHub](github.com/javad-sheikh)
 
 **Education**
 
