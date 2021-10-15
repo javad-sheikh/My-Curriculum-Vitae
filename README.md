@@ -114,9 +114,11 @@
 **Teaching Experience**
 
 > **Software Tutor** *\| Python, Tensorfow, Google Colab* |  Spring 2019
+> 
 > *•* Department of Computer Engineering, Amirkabir University of Technology
 >
 > **Software Tutor** *\| MATLAB, Simulink* | Spring 2015 |
+> 
 > *•* Department of Biomedical Engineering, Amirkabir University of Technology
 
 **Languages**
