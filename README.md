@@ -1,7 +1,7 @@
 **JavadSheikh**
-           |                |
-:---        |     :---:      |          ---:
+---        |     ---      |          ---
 https://javad-sheikh.github.io | javad2n\@aut.ac.ir  | linkedin.com/in/javad-sheikh
+---        |     ---      |          ---
 +98-919-7317-364 | 0000-0001-6474-1674 | github.com/javad-sheikh
 
 **Education**
