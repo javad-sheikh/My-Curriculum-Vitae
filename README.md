@@ -1,10 +1,7 @@
 **JavadSheikh**
 
-+-------------------+----------------------+---------------------------------+
-| �Personal Website | �javad2n\@aut.ac.ir  | > �linkedin.com/in/javad-sheikh |
-+===================+======================+=================================+
-| �+98-919-7317-364 | �0000-0001-6474-1674 | > �github.com/javad-sheikh      |
-+-------------------+----------------------+---------------------------------+
+| Personal Website | javad2n\@aut.ac.ir  | linkedin.com/in/javad-sheikh |
+| +98-919-7317-364 | 0000-0001-6474-1674 | github.com/javad-sheikh      |
 
 **Education**
 
@@ -211,14 +208,3 @@
 >  Computer Vision
 >
 >  Medical Image Analysis
-
-**References**
-
-> ***Prof. Safabakhsh,** Department of Computer Engineering, Amirkabir
-> University of Technology* **Email:**
->
-> ***Asst. Prof. Nazerfard,** Department of Computer Engineering,
-> Amirkabir University of Technology* **Email:**
->
-> ***Assoc. Prof. Jafari,** Department of Biomedical Engineering,
-> Amirkabir University of Technology* **Email:**
