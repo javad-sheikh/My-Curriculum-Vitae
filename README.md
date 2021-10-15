@@ -8,7 +8,6 @@
 
 > **Amirkabir University of Technology**       | Tehran, Iran       
 > *M.Sc. in Computer Engineering, Minor in Artifcial Intelligence and robotics* | *Sep. 2018 -- Now* 
-
 > *•* **Thesis:** "Anomaly detection on time series using deep neural
 > networks."
 >
@@ -16,7 +15,6 @@
 
 > **Amirkabir University of Technology** | Tehran, Iran
 > *B.Sc. in Biomedical Engineering Minor in Bioelectrics* | *Sep. 2013 -- Sep. 2018*
-
 > *•* **Thesis:** "Design and Implementation of mobile room lighting
 > control equipment for patients with paraplegic patients."
 >
@@ -28,7 +26,7 @@
 > Shariatzadeh F.J., Salar Amoli M., Faghihi F., **Sheikh J.**,Sadeghi
 > P., et al.; 2021; *Sutures and surgical instruments*; Medical
 > Equipment;
->
+
 > *•* **Journal papers:**\
 > Sheikh V., RezaeiMoghaddam H., Jafary R., Gholami Z., **Sheikh J.**;
 > 2020; *Design, construction and performance evaluation of an automatic
@@ -104,7 +102,6 @@
 
 > **Artifcial Intelligence App Developer** | Sep. 2018 -- Mar. 2019
 > *AI engineer at Sibbank*                 | *Tehran*
-
 > *•* Researched and assessed different mobile compatible deep learning
 > structures
 >
@@ -117,7 +114,7 @@
 
 > **Software Tutor** *\| Python, Tensorfow, Google Colab* |  Spring 2019
 > *•* Department of Computer Engineering, Amirkabir University of Technology
-
+>
 > **Software Tutor** *\| MATLAB, Simulink* | Spring 2015 |
 > *•* Department of Biomedical Engineering, Amirkabir University of Technology
 
