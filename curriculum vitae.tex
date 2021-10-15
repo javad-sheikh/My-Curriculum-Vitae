@@ -15,6 +15,7 @@
 \usepackage[english]{babel}
 \usepackage{fontawesome5}
 \usepackage{tabularx}
+\usepackage{tikz}
 \input{glyphtounicode}
 
 
@@ -24,6 +25,9 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 \newcommand{\faCenter}[1]{\raisebox{-2pt}{\faIcon{#1}}}
+
+\definecolor{theme_color}{rgb}{0.11, 0.51, 0.30}
+\definecolor{grey}{rgb}{0.35, 0.35, 0.35}
 
 % Adjust margins
 \addtolength{\oddsidemargin}{-0.5in}
@@ -40,8 +44,11 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  \scshape\color{theme_color}\raggedright\LARGE
+}{}{0em}{\begin{tikzpicture}[remember picture,overlay]
+\path[left color=theme_color, right color=white]
+(-7pt,-7pt)+(0,-2pt) rectangle +(14cm,2pt);
+\end{tikzpicture}}
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -92,9 +99,13 @@
 \begin{document}
 
 \begin{center}
-\textbf{\Huge \scshape Javad Sheikh} \\ \vspace{1pt}
+\textbf{\Huge{\scshape{\textcolor{theme_color}{Javad}}}} \textbf{\Huge{\scshape{\textcolor{black}{Sheikh}}}}
+\vspace{-20pt}
 \end{center}
-\hrule
+\begin{tikzpicture}[baseline]
+    \path[left color=white,right color=white,middle color=theme_color]
+    (-5pt,-5pt)+(0,-2pt) rectangle +(\textwidth,2pt);
+\end{tikzpicture}
 \begin{center}
 \begin{tabularx}{1\textwidth} {>{\raggedleft\arraybackslash}X >{\centering\arraybackslash}X >{\raggedright\arraybackslash}X}
     \faCenter{globe} \href{https://javad-sheikh.github.io}{Personal Website} &
@@ -121,23 +132,23 @@
 
 %\indent I'm a highly motivated artificial intelligence graduate who enjoys solving problems meticulously. I'm looking to improve my knowledge about Machine Learning, Deep Learning, their applications and deploy them into real-world models.
 %-----------EDUCATION-----------
-\section{Education}
+\section{\textbf{Education}}
   \resumeSubHeadingListStart
     \resumeSubheading
         {Amirkabir University of Technology}{Tehran, Iran}
         {M.Sc. in Computer Engineering, Minor in Artificial Intelligence and robotics}{Sep. 2018 -- Now}
       \resumeItemListStart
-        %\resumeItem{\textbf{Thesis:} ``Anomaly detection on time series using deep neural networks.''}
-        %\resumeItem{\textbf{Advisor:} Prof. Safabakhsh}
-        \resumeItem{\textbf{GPA:} 15.77/20}
+        \resumeItem{\textbf{Thesis:} ``Anomaly detection on time series using deep neural networks.''}
+        \resumeItem{\textbf{Advisor:} Prof. Safabakhsh}
+        %\resumeItem{\textbf{GPA:} 15.77/20}
       \resumeItemListEnd
     \resumeSubheading
       {Amirkabir University of Technology}{Tehran, Iran}
       {B.Sc. in Biomedical Engineering, Minor in Bioelectrics}{Sep. 2013 -- Sep. 2018}
       \resumeItemListStart
-        %\resumeItem{\textbf{Thesis:} ``Design and Implementation of mobile room lighting control equipment for patients with paraplegic patients.''}
-        %\resumeItem{\textbf{Advisor:} Dr. Ahmadi Pajouh}
-        \resumeItem{\textbf{GPA:} 14.78/20}
+        \resumeItem{\textbf{Thesis:} ``Design and Implementation of mobile room lighting control equipment for patients with paraplegic patients.''}
+        \resumeItem{\textbf{Advisor:} Dr. Ahmadi Pajouh}
+        %\resumeItem{\textbf{GPA:} 14.78/20}
         \resumeItemListEnd
     \resumeSubheading
       {Shahid Beheshti Highschool}{Gorgan, Iran}
@@ -148,13 +159,14 @@
 
   \resumeSubHeadingListEnd
 
-\section{Publications}
+\section{\textbf{Publications}}
     \resumeItemListStart
         \resumeItem{
         \textbf{Book chapter:}\\
         Shariatzadeh F.J., Salar Amoli M., Faghihi F., \textbf{Sheikh J.},Sadeghi P., et al.; 2021; \textit{Sutures and surgical instruments};  Medical Equipment;}
 
         \resumeItem{
+        \textbf{Journal papers:}\\
         Sheikh V., RezaeiMoghaddam H., Jafary R., Gholami Z., \textbf{Sheikh J.}; 2020; \textit{Design, construction and performance evaluation of an automatic weighing lysimeter.}; Water and Irrigation Management; 10(1); pp.61-73.\\
         \textbf{DOI: }\href{https://dx.doi.org/10.22059/jwim.2020.294404.738}{dx.doi.org/10.22059/jwim.2020.294404.738}}
 
@@ -163,14 +175,58 @@
         \textbf{DOI: }\href{https://doi.org/10.1016/j.chaos.2017.12.005}{doi.org/10.1016/j.chaos.2017.12.005}}
 
     \resumeItemListEnd
-\section{Working Experience}
+\section{\textbf{Selected Academic Projects}}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Tracking moving object in video} $|$ \emph{Python, OpenCV}}{}
+          \resumeItemListStart
+            \resumeItem{Extracting key points using Brief, Freak, Surf, and Sift}
+            \resumeItem{Following key points utilizing RANSAC and Least Median}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Generative Adversarial Network} $|$ \emph{Python, Tensorflow, Google Colab, Gradient Tape}}{}
+          \resumeItemListStart
+            \resumeItem{Generation cat and dog pictures with GAN network using the cats and dogs data set}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Semantic Segmentation} $|$ \emph{Python, Tensorflow, Google Colab, CNN}}{}
+          \resumeItemListStart
+            \resumeItem{Semantic segmentation of KITTI data set using convolutional neural networks}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Machine Translation} $|$ \emph{Python, Tensorflow, LSTM, GRU, Attention}}{}
+          \resumeItemListStart
+            \resumeItem{Designed an Encoder-Decoder Recurrent Neural Network model with attention for Deutsch to English translation}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Fuzzy Neural Network} $|$ \emph{Python}}{}
+          \resumeItemListStart
+            \resumeItem{Estimation of Mackey-Glass time series with a fuzzy neural network}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Machine learning Projects} $|$ \emph{Python, scikit-learn}}{}
+          \resumeItemListStart
+            \resumeItem{Clustering tasks using  Kmeans, DB-Scan and Hierarchical clustering }
+            \resumeItem{Classification with KNN with k found using K—fold-cross-validation}
+            \resumeItem{Classification with  C4.5, CART, ID3 Decision Trees}
+            \resumeItem{Classification with Random Forest}
+            \resumeItem{Classification of car evaluation data set with Naive Bayes and Logistic Regression}
+            \resumeItem{Classification of handwritten digits data set with SVM}
+          \resumeItemListEnd
+      \resumeProjectHeading
+        {\textbf{Parameter Estimation} $|$ \emph{Matlab, Optimization}}{}
+        \resumeItemListStart
+            \resumeItem{Parameter Estimation of the Rulkov Neuron Map using Interior search algorithm)}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+\section{\textbf{Working Experience}}
   \resumeSubHeadingListStart
     \resumeSubheading
       {freelance AI engineer}{Apr. 2019 -- Present}
       {Retinopathy detection App Development}{}
       \resumeItemListStart
         \resumeItem{Preprocessed retina images from Kaggle Diabetic Retinopathy data set}
-        \resumeItem{retrained DenseNet-169 on a processed data set}
+        \resumeItem{retrained DenseNet-169 on a data set previously preprocessed}
         \resumeItem{Developed AI mobile application to detect diabetic retinopathy}
       \resumeItemListEnd
     \resumeSubSubheading
@@ -188,52 +244,7 @@
     \resumeItemListEnd
   \resumeSubHeadingListEnd
 
-\section{Projects}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{Tracking moving object in video} $|$ \emph{Python, OpenCV}}{}
-          \resumeItemListStart
-            \resumeItem{Extracting key points using Brief, Freak, Surf, and Sift}
-            \resumeItem{Following key points utilizing RANSAC and Least Median}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Generative adversarial network} $|$ \emph{Python, Tensorflow, Google Colab, Gradient Tape}}{}
-          \resumeItemListStart
-            \resumeItem{Generation cat and dog pictures with GAN network using the cats and dogs data set}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Semantic Segmentation} $|$ \emph{Python, Tensorflow, Google Colab, CNN}}{}
-          \resumeItemListStart
-            \resumeItem{Semantic segmentation of KITTI data set using convolutional neural networks}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Machine Translation} $|$ \emph{Python, Tensorflow, LSTM, GRU, Attention}}{}
-          \resumeItemListStart
-            \resumeItem{Designed an Encoder-Decoder Recurrent Neural Network model with attention for Deutsch to English translation}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{fuzzy neural network} $|$ \emph{Python}}{}
-          \resumeItemListStart
-            \resumeItem{Estimation of Mackey-Glass time series with a fuzzy neural network}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Machine learning Projects} $|$ \emph{Python, scikit-learn}}{}
-          \resumeItemListStart
-            \resumeItem{Clustering tasks using  Kmeans, DB-Scan and Hierarchical clustering }
-            \resumeItem{Classification with KNN with k found using K—fold-cross-validation}
-            \resumeItem{Classification with  C4.5, CART, ID3 Decision Trees}
-            \resumeItem{Classification with Random Forest}
-            \resumeItem{Classification of car evaluation data set with Naive Bayes and Logistic Regression}
-            \resumeItem{Classification of handwritten digits data set with SVM}
-          \resumeItemListEnd
-      \resumeProjectHeading
-        {\textbf{Parameter Estimation} $|$ \emph{Matlab, Optimization}}{}
-        \resumeItemListStart
-            \resumeItem{Parameter Estimation of the Rulkov Neuron Map using Interior search algorith)}
-        \resumeItemListEnd
-    \resumeSubHeadingListEnd
-
-\section{Teaching Experience}
+\section{\textbf{Teaching Experience}}
     \resumeSubHeadingListStart
         \resumeProjectHeading
           {\textbf{Software Tutor} $|$ \emph{Python, Tensorflow, Google Colab}}{Spring 2019}
@@ -246,27 +257,71 @@
             \resumeItem{Department of Biomedical Engineering, Amirkabir University of Technology}
           \resumeItemListEnd
       \resumeItemListEnd
-      
-\section{Languages}
+
+\section{\textbf{Languages}}
   \resumeSubHeadingListStart
     \resumeSubSubheading
-        {\textbf{English} (CEFR level: C1)}{Listening: 8.5, Reading: 8.5, Writing: 6.5, Speaking: 7}
+        {\textbf{English} (IELTS Academic CEFR level: C1)}{Listening: 8.5, Reading: 8.5, Writing: 6.5, Speaking: 7}
 
     \resumeSubSubheading
-        {\textbf{Persian} (Native)}{}
+        {\textbf{German} (Elementary)}{}
 
   \resumeSubHeadingListEnd
 %-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
+\section{\textbf{Technical Skills}}
  \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Python, Java, Matlab, \TeX, C/C++, SQL, JavaScript, HTML/CSS} \\
-     \textbf{Developer Tools}{: Git, VS Code, Visual Studio, Android Studio, Jupyter Notebook, Google Colab} \\
-     \textbf{Libraries}{: Tensorflow, Tensorboard, Tensorflow-Lite, Stable-Baselines, OpenCV, Keras, pandas, NumPy, Matplotlib, scikit-learn}
-    }}
+    \small{
+    \item{\textbf{Programming Languages:}{Python, Java, Matlab, C/C\texttt{++}, SQL, JavaScript, HTML/CSS}}
+     
+     \item{\textbf{Developer Tools:}{ Visual Studio Code, Android Studio, Google Colab, Kaggle}}
+     
+     \item{\textbf{Version Control:}{Git, GitHub, GitLab}}
+     
+     \item{\textbf{Selected Python Libraries:}{ Tensorflow, Pytorch, OpenCV, Pandas, NumPy, Matplotlib, Scipy, Scikit-Learn}}
+     
+     \item{\textbf{Typesetting:}{\TeX, Word}}
+     
+     \item{\textbf{Operating Systems:}{Windows, Ubuntu}}
+    }
  \end{itemize}
+ 
+\section{\textbf{Honors \& Awards}}
 
-\section{references}
+  \resumeSubHeadingListStart  
+    \resumeSubSubheading
+        {\textbf{M.Sc. National University Entrance Exam}}{}
+        \resumeItemListStart
+            \resumeItem{Achieved the 87th place in the national M.Sc entrance exam in Computer Engineering}
+          \resumeItemListEnd
+    \resumeSubSubheading
+        {\textbf{B.Sc. National University Entrance Exam}}{}
+        \resumeItemListStart
+            \resumeItem{Ranked in the top 0.5\% among 251,000 students in the national university entrance exam in mathematics and physics discipline}
+          \resumeItemListEnd
+    \resumeSubSubheading
+        {\textbf{B.Sc. National University Entrance Exam}}{}
+        \resumeItemListStart
+            \resumeItem{Ranked in the top 5\% among 10,000 students in the national university entrance exam in foreign languages discipline}
+          \resumeItemListEnd
+    \resumeSubSubheading
+        {\textbf{High School Olympiad}}{}
+        \resumeItemListStart
+            \resumeItem{being accepted at the first stage of national Chemistry Olympiad (2011)}
+          \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+  
+\section{\textbf{Research Interests}}
+    \resumeItemListStart
+            \resumeItem{Machine Learning}
+            \resumeItem{Artificial Neural Networks}
+            \resumeItem{Biologically Plausible Neural Networks}
+            \resumeItem{Anomaly Detection}
+            \resumeItem{Computer Vision}
+            \resumeItem{Medical Image Analysis}
+          \resumeItemListEnd
+          
+\section{\textbf{References}}
     \resumeSubHeadingListStart
 
         \resumeSubSubheading
@@ -284,12 +339,4 @@
 
             {\textbf{Email: }}{\href{mailto:sajadjafari@aut.ac.ir}{sajadjafari@aut.ac.ir}}
     \resumeSubHeadingListEnd
-\begin{comment}
-\section{Interests}
-    \resumeItemListStart
-            \resumeItem{Hiking}
-            \resumeItem{Volleyball}
-            \resumeItem{reading novels}
-          \resumeItemListEnd
-\end{comment}
 \end{document} 
