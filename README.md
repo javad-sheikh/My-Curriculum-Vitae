@@ -1,36 +1,26 @@
 **JavadSheikh**
+
+[Personal Website](https://javad-sheikh.github.io) | javad2n\@aut.ac.ir  | [LinkedIn](linkedin.com/in/javad-sheikh)
 ---        |     ---      |          ---
-https://javad-sheikh.github.io | javad2n\@aut.ac.ir  | linkedin.com/in/javad-sheikh
----        |     ---      |          ---
-+98-919-7317-364 | 0000-0001-6474-1674 | github.com/javad-sheikh
+[+98-919-7317-364](callto:+989197317364) | [OrcId:0000-0001-6474-1674](https://orcid.org/0000-0001-6474-1674) | [GitHub](github.com/javad-sheikh)
 
 **Education**
 
-| > **Amirkabir University of Technology**       | Tehran, Iran       |
-| > *M.Sc. in Computer Engineering, Minor in     | *Sep. 2018 -- Now* |
-| > Artifcial Intelligence and robotics*         |                    |
+> **Amirkabir University of Technology**       | Tehran, Iran       
+> *M.Sc. in Computer Engineering, Minor in Artifcial Intelligence and robotics* | *Sep. 2018 -- Now* 
 
 > *•* **Thesis:** "Anomaly detection on time series using deep neural
 > networks."
 >
 > *•* **Advisor:** Prof. Safabakhsh
 
-| > **Amirkabir University of Technology** | Tehran, Iran             |
-| > *B.Sc. in Biomedical Engineering,      | *Sep. 2013 -- Sep. 2018* |
-| > Minor in Bioelectrics*                 |                          |
+> **Amirkabir University of Technology** | Tehran, Iran
+> *B.Sc. in Biomedical Engineering Minor in Bioelectrics* | *Sep. 2013 -- Sep. 2018*
 
 > *•* **Thesis:** "Design and Implementation of mobile room lighting
 > control equipment for patients with paraplegic patients."
 >
 > *•* **Advisor:** Dr. Ahmadi Pajouh
-
-
-| > **Shahid Beheshti Highschool**         | Gorgan, Iran             |
-| > *Diploma in Mathematics and Physics    | *Sep. 2009 -- Sep. 2013* |
-| > Discipline*                            |                          |
-
-> *•* Under the supervision of NODET (National Organization for
-> Developing Exceptional Talents)
 
 **Publications**
 
@@ -131,16 +121,11 @@ https://javad-sheikh.github.io | javad2n\@aut.ac.ir  | linkedin.com/in/javad-she
 
 **Teaching Experience**
 
-+-------------------------------------------------------+-------------+
-| > **Software Tutor** *\| Python, Tensorfow, Google    | Spring 2019 |
-| > Colab*\                                             |             |
-| > *•* Department of Computer Engineering, Amirkabir   |             |
-| > University of Technology                            |             |
-+=======================================================+=============+
-| > **Software Tutor** *\| MATLAB, Simulink*\           | Spring 2015 |
-| > *•* Department of Biomedical Engineering, Amirkabir |             |
-| > University of Technology                            |             |
-+-------------------------------------------------------+-------------+
+> **Software Tutor** *\| Python, Tensorfow, Google Colab* |  Spring 2019
+> *•* Department of Computer Engineering, Amirkabir University of Technology
+
+> **Software Tutor** *\| MATLAB, Simulink* | Spring 2015 |
+> *•* Department of Biomedical Engineering, Amirkabir University of Technology
 
 **Languages**
 
@@ -151,20 +136,19 @@ https://javad-sheikh.github.io | javad2n\@aut.ac.ir  | linkedin.com/in/javad-she
 
 **Technical Skills**
 
-> **Programming Languages:**Python, Java, Matlab, C/C++, SQL,
+> **Programming Languages:** Python, Java, Matlab, C/C++, SQL,
 > JavaScript, HTML/CSS
 >
 > **Developer Tools:** Visual Studio Code, Android Studio, Google Colab,
 > Kaggle
 >
-> **Version Control:**Git, GitHub, GitLab
+> **Version Control:** Git, GitHub, GitLab
 >
-> **Selected Python Libraries:** Tensorflow, Pytorch, OpenCV, Pandas,
-> NumPy, Matplotlib, Scipy, Scikit-Learn
+> **Selected Python Libraries:** Tensorflow, Pytorch, OpenCV, Pandas, NumPy, Matplotlib, Scipy, Scikit-Learn
 >
-> **Typesetting:**TEX, Word
+> **Typesetting:** TEX, Word
 >
-> **Operating Systems:**Windows, Ubuntu
+> **Operating Systems:** Windows, Ubuntu
 
 **Honors & Awards**
 
